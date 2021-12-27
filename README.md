@@ -18,4 +18,4 @@ Only need to create an empty schema called booking. Upon running the code Flyway
 Example data is in resources/data.sql. It will not be automatically inserted since it is mainly for in-memory database.
 
 ## How to Use Easily
-While this is a Rest API implementation and therefore lacks any GUI, SpringDoc provides a way to more easily use the endpoints. http://localhost:8080/ will redirect to the SpringDoc page. 
+While this is a Rest API implementation and therefore lacks any GUI, SpringDoc provides a way to more easily use the endpoints. http://localhost:8080/ will redirect to the SpringDoc page. IMPORTANT: For body, SpringDoc sents its requests with newline character which is not accepted by the application. Request body should be edited to be a single line for the request to be accepted.
