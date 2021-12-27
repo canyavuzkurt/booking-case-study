@@ -33,7 +33,6 @@ public class Vehicle extends BaseModel{
 
     public boolean addCleaner(Cleaner cleaner) {
 
-        //TODO migrate this 5 to properties and throw exception
         return this.cleaners.size() >= 5 ? cleaners.add(cleaner) : false;
     }
 }
